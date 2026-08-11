@@ -8,7 +8,11 @@
 <meta property="og:title" content="LEGAL WAY — The Solution of Every Problem">
 <meta property="og:description" content="Advocate Sumsam Ahmad Sahi — Advocate & Legal Consultant, Gujranwala, Pakistan. Law. Honor. Truth. Not just words, but a way of life.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://sumsamsahi693.com/verify">
+<meta property="og:url" content="https://samsamahmad693.github.io/Portfolio/">
+<meta property="og:image" content="https://samsamahmad693.github.io/Portfolio/images/author.jpg">
+<meta property="og:image:width" content="400">
+<meta property="og:image:height" content="711">
+<meta property="og:image:alt" content="Advocate Sumsam Ahmad Sahi — LEGAL WAY">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230d1f3c'/%3E%3Ctext x='32' y='44' font-size='34' font-family='Georgia,serif' fill='%23b8922e' text-anchor='middle'%3ELW%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,7 +70,7 @@ a{color:inherit;text-decoration:none}
   filter:drop-shadow(0 0 16px rgba(230,198,104,.28));
 }
 .section-head::after{
-  content:"✦ ❖ ✦";
+  content:"❖ ☖ ❖";
   display:block;color:var(--gold);font-size:.95rem;letter-spacing:1em;
   margin-top:.4rem;opacity:.9;
   text-shadow:0 0 14px rgba(230,198,104,.35);
@@ -182,7 +186,7 @@ header.scrolled{
   border:1px solid rgba(184,146,46,.4);border-radius:999px;padding:.55rem 1.4rem;
   background:rgba(184,146,46,.07);backdrop-filter:blur(4px);margin-bottom:1.6rem;
 }
-.hero-kicker::before,.hero-kicker::after{content:"✦";font-size:.6rem;color:var(--gold)}
+.hero-kicker::before,.hero-kicker::after{content:"❖";font-size:.6rem;color:var(--gold)}
 .hero-wordmark{
   font-family:var(--serif);font-weight:800;font-size:clamp(3.6rem,10vw,7.2rem);
   line-height:1.02;letter-spacing:.1em;
@@ -195,7 +199,7 @@ header.scrolled{
 @keyframes metalShine{to{background-position:200% center}}
 .hero-wordmark .gold-text{letter-spacing:.06em}
 .hero-rule{width:min(520px,80%);height:1px;margin:1.4rem auto;background:linear-gradient(90deg,transparent,var(--gold),transparent);position:relative}
-.hero-rule::after{content:"❖";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--gold);background:var(--navy-900);padding:0 .9rem;font-size:.85rem}
+.hero-rule::after{content:"☖";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--gold);background:var(--navy-900);padding:0 .9rem;font-size:.85rem}
 .hero-tag{
   font-family:var(--serif);font-style:italic;font-size:clamp(1.25rem,2.8vw,1.75rem);
   color:var(--gold-pale);letter-spacing:.18em;text-transform:uppercase;margin-bottom:1.2rem;
@@ -327,6 +331,11 @@ section{padding:6.5rem 0;position:relative}
   transition:color .4s;
 }
 .card:hover .num{color:rgba(230,198,104,.6)}
+.card-list{list-style:none;margin-top:.9rem;padding-top:.8rem;border-top:1px dashed rgba(184,146,46,.22);display:grid;gap:.42rem}
+.card-list li{display:flex;gap:.55rem;align-items:flex-start;color:var(--muted);font-size:.8rem;line-height:1.6}
+.card-list li::before{content:"";flex:0 0 6px;width:6px;height:6px;border-radius:50%;margin-top:.42rem;background:linear-gradient(135deg,var(--gold-light),var(--gold));box-shadow:0 0 8px rgba(230,198,104,.55)}
+.card:hover .card-list li{color:var(--ivory)}
+.card-list .tr-ur{font-family:var(--urdu);font-size:.9rem;line-height:1.8}
 
 /* Government */
 .gov{background:linear-gradient(180deg,var(--navy-900),var(--navy-950))}
@@ -522,7 +531,7 @@ body.lang-ur .hero-quote{font-family:var(--urdu);font-style:normal;font-size:1.0
   .reveal{opacity:1;transform:none}
 }
 html.no-js .reveal{opacity:1;transform:none}
-/* ═════════════════════════════════════ PART A — SOCIAL LINKS CSS (paste just before the closing style tag) ═════════════════════════════════════ */
+/* ══════════════════════════════════════════════════════════════ PART A — SOCIAL LINKS CSS (paste just before the closing style tag) ══════════════════════════════════════════════════════════════ */
 .lw-social{position:relative;margin:2.6rem 0 2.8rem;text-align:center}
 .lw-social .ls-head{display:flex;align-items:center;justify-content:center;gap:1rem;margin-bottom:1.6rem}
 .lw-social .ls-head::before,.lw-social .ls-head::after{
@@ -611,7 +620,79 @@ html.no-js .reveal{opacity:1;transform:none}
   .ls-dust i{animation:none!important}
 }
 
+/* ============ TESTIMONIALS ============ */
+.tst-section{padding:5.5rem 0 6rem;position:relative;background:radial-gradient(ellipse at 50% 0%,rgba(184,146,46,.07),transparent 60%)}
+.tst-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6rem;margin-top:2.6rem}
+.tst-card{position:relative;background:linear-gradient(160deg,rgba(255,255,255,.045),rgba(255,255,255,.015));border:1px solid rgba(184,146,46,.22);border-radius:18px;padding:2rem 1.6rem 1.7rem;transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease;backdrop-filter:blur(6px)}
+.tst-card::before{content:"";position:absolute;inset:0;border-radius:18px;background:linear-gradient(160deg,rgba(184,146,46,.18),transparent 45%);opacity:0;transition:opacity .35s ease;pointer-events:none}
+.tst-card:hover{transform:translateY(-6px);border-color:rgba(184,146,46,.55);box-shadow:0 18px 45px rgba(0,0,0,.4)}
+.tst-card:hover::before{opacity:1}
+.tst-quote{font-size:2.4rem;line-height:1;color:var(--gold,#b8922e);opacity:.55;margin-bottom:.4rem;font-family:Georgia,serif}
+.tst-stars{display:flex;gap:.25rem;margin:.5rem 0 .9rem;color:#d9a62e;font-size:1.05rem;letter-spacing:2px;text-shadow:0 0 10px rgba(217,166,46,.45)}
+.tst-text{font-size:.98rem;line-height:1.75;color:var(--cream,#f5ecd8);opacity:.92}
+.tst-text.tr-ur{font-family:'Noto Nastaliq Urdu',serif;line-height:2.1;text-align:right}
+.tst-foot{display:flex;align-items:center;gap:.85rem;margin-top:1.35rem;padding-top:1.1rem;border-top:1px dashed rgba(184,146,46,.28)}
+.tst-ava{flex:none;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.95rem;color:#10182a;background:linear-gradient(135deg,#e6c668,#b8922e);box-shadow:0 0 0 2px rgba(184,146,46,.35),0 4px 14px rgba(0,0,0,.4)}
+.tst-meta{line-height:1.3}
+.tst-name{font-weight:700;font-size:.98rem;color:#fbf7ec;letter-spacing:.02em}
+.tst-case{font-size:.8rem;color:var(--gold-light,#e6c668);opacity:.9}
+.tst-meta .tr-ur{font-family:'Noto Nastaliq Urdu',serif}
+.tst-meta .tr-ur.tst-name{color:#fbf7ec}
+.tst-meta .tr-ur.tst-case{color:#e6c668}
+@media(max-width:960px){.tst-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.tst-grid{grid-template-columns:1fr}.tst-section{padding:3.8rem 0 4.2rem}}
+@media(prefers-reduced-motion:reduce){.tst-card{transition:none!important}}
+
+/* ============ CLIENT REVIEWS ============ */
+.reviews{background:var(--navy-950);position:relative;overflow:hidden;padding:110px 0}
+.reviews::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 50% 0%,rgba(184,146,46,.06),transparent 70%)}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;position:relative;z-index:1}
+.review-card{background:rgba(245,236,216,.035);border:1px solid rgba(184,146,46,.16);border-radius:18px;padding:34px 28px 30px;position:relative;transition:transform .4s ease,border-color .4s ease,background .4s ease;backdrop-filter:blur(8px)}
+.review-card::before{content:"";position:absolute;inset:0;border-radius:18px;background:linear-gradient(160deg,rgba(184,146,46,.12),transparent 45%);opacity:0;transition:opacity .4s ease}
+.review-card:hover{transform:translateY(-6px);border-color:rgba(184,146,46,.45);background:rgba(245,236,216,.055)}
+.review-card:hover::before{opacity:1}
+.review-quote-icon{position:absolute;top:22px;right:24px;font-size:52px;line-height:1;color:rgba(184,146,46,.22);font-family:Georgia,serif}
+.review-stars{display:flex;gap:4px;margin-bottom:16px}
+.review-stars svg{width:17px;height:17px;fill:#b8922e;filter:drop-shadow(0 0 4px rgba(184,146,46,.5))}
+.review-text{font-size:14.5px;line-height:1.75;color:var(--cream);opacity:.92;margin-bottom:22px;min-height:76px}
+.review-text.tr-ur{font-family:var(--font-urdu);text-align:right;direction:rtl;font-size:15px;line-height:1.9}
+.review-author{display:flex;align-items:center;gap:14px;border-top:1px dashed rgba(184,146,46,.25);padding-top:18px}
+.review-avatar{width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,#b8922e,#e6c668);color:#10182a;font-family:var(--font-head);font-weight:700;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 2px rgba(184,146,46,.3),0 0 18px rgba(184,146,46,.25);flex-shrink:0}
+.review-meta{display:flex;flex-direction:column;gap:3px}
+.review-name{font-family:var(--font-head);font-size:15.5px;font-weight:600;color:#f5ecd8;letter-spacing:.3px}
+.review-case{font-size:11.5px;letter-spacing:1.4px;text-transform:uppercase;color:#b8922e;font-weight:600}
+@media(max-width:992px){.reviews-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.reviews-grid{grid-template-columns:1fr}.reviews{padding:80px 0}.review-text{min-height:0}}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "LEGAL WAY — Advocate Sumsam Ahmad Sahi",
+  "url": "https://samsamahmad693.github.io/Portfolio/",
+  "image": "https://samsamahmad693.github.io/Portfolio/images/author.jpg",
+  "description": "Advocate Sumsam Ahmad Sahi — Advocate & Legal Consultant in Gujranwala, Pakistan. Civil Litigation, Criminal Defense, Family Law, Property Disputes, Corporate Advisory, Legal Consultation, Cyber Crime Law & PECA Defence.",
+  "telephone": "+92-315-4716460",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rehmat Block",
+    "addressLocality": "Gujranwala",
+    "addressCountry": "PK"
+  },
+  "areaServed": "Pakistan",
+  "founder": {
+    "@type": "Person",
+    "name": "Sumsam Ahmad Sahi",
+    "jobTitle": "Advocate & Legal Consultant"
+  },
+  "sameAs": [
+    "https://www.instagram.com/samsam_sahi/",
+    "https://www.facebook.com/share/1JEfTqhmbY/",
+    "https://www.linkedin.com/in/sumsam-sahi-4814a7391"
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -629,6 +710,7 @@ html.no-js .reveal{opacity:1;transform:none}
       <li><a href="#practice" data-en="Practice Areas" data-ur="شعبہ ہائے عمل">Practice Areas</a></li>
       <li><a href="#gov" data-en="Collaboration" data-ur="قومی تعاون">Collaboration</a></li>
       <li><a href="#why" data-en="Why Us" data-ur="ہم کیوں؟">Why Us</a></li>
+      <li><a href="#reviews" data-en="Reviews" data-ur="ریویوز">Reviews</a></li>
       <li><a href="#contact" data-en="Contact" data-ur="رابطہ">Contact</a></li>
     </ul>
     <div class="nav-cta">
@@ -698,14 +780,14 @@ html.no-js .reveal{opacity:1;transform:none}
 <!-- ============ STRIP ============ -->
 <div class="strip" aria-hidden="true">
   <div class="strip-track">
-    <span>❖ <b>HISTORY REMEMBERS</b> THOSE WHO STOOD FOR WHAT WAS RIGHT — تاریخ انہیں یاد رکھتی ہے جو حق کے لیے کھڑے ہوئے</span>
-    <span>✦ <b>YOUR PROBLEM.</b> OUR GUIDANCE. THE RIGHT WAY FORWARD — آپ کا مسئلہ۔ ہماری رہنمائی۔ صحیح راستہ</span>
-    <span>❖ <b>LAW. HONOR. TRUTH.</b> NOT JUST WORDS, BUT A WAY OF LIFE</span>
-    <span>✦ <b>THE SOLUTION</b> OF EVERY PROBLEM — ہر مسئلے کا حل</span>
-    <span>❖ <b>HISTORY REMEMBERS</b> THOSE WHO STOOD FOR WHAT WAS RIGHT — تاریخ انہیں یاد رکھتی ہے جو حق کے لیے کھڑے ہوئے</span>
-    <span>✦ <b>YOUR PROBLEM.</b> OUR GUIDANCE. THE RIGHT WAY FORWARD — آپ کا مسئلہ۔ ہماری رہنمائی۔ صحیح راستہ</span>
-    <span>❖ <b>LAW. HONOR. TRUTH.</b> NOT JUST WORDS, BUT A WAY OF LIFE</span>
-    <span>✦ <b>THE SOLUTION</b> OF EVERY PROBLEM — ہر مسئلے کا حل</span>
+    <span>☖ <b>HISTORY REMEMBERS</b> THOSE WHO STOOD FOR WHAT WAS RIGHT — تاریخ انہیں یاد رکھتی ہے جو حق کے لیے کھڑے ہوئے</span>
+    <span>❖ <b>YOUR PROBLEM.</b> OUR GUIDANCE. THE RIGHT WAY FORWARD — آپ کا مسئلہ۔ ہماری رہنمائی۔ صحیح راستہ</span>
+    <span>☖ <b>LAW. HONOR. TRUTH.</b> NOT JUST WORDS, BUT A WAY OF LIFE</span>
+    <span>❖ <b>THE SOLUTION</b> OF EVERY PROBLEM — ہر مسئلے کا حل</span>
+    <span>☖ <b>HISTORY REMEMBERS</b> THOSE WHO STOOD FOR WHAT WAS RIGHT — تاریخ انہیں یاد رکھتی ہے جو حق کے لیے کھڑے ہوئے</span>
+    <span>❖ <b>YOUR PROBLEM.</b> OUR GUIDANCE. THE RIGHT WAY FORWARD — آپ کا مسئلہ۔ ہماری رہنمائی۔ صحیح راستہ</span>
+    <span>☖ <b>LAW. HONOR. TRUTH.</b> NOT JUST WORDS, BUT A WAY OF LIFE</span>
+    <span>❖ <b>THE SOLUTION</b> OF EVERY PROBLEM — ہر مسئلے کا حل</span>
   </div>
 </div>
 
@@ -746,13 +828,13 @@ html.no-js .reveal{opacity:1;transform:none}
   </div>
 </section>
 
-<!-- ============ PRACTICE AREAS ============ -->
+<!-- ============ PRACTICE AREAS (ENHANCED) ============ -->
 <section class="practice" id="practice">
   <div class="container">
     <div class="section-head reveal">
       <div class="section-label"><span class="tr-en">What We Handle</span><span class="tr-ur">ہم کیا سنبھالتے ہیں</span></div>
       <h2 class="section-title"><span class="tr-en">Practice <span class="gold-text">Areas</span></span><span class="tr-ur">شعبہ ہائے <span class="gold-text">عمل</span></span></h2>
-      <p class="section-sub"><span class="tr-en">Seven focused areas of practice — one standard: excellence.</span><span class="tr-ur">عمل کے سات مرکوز شعبے — ایک معیار: فضیلت۔</span></p>
+      <p class="section-sub"><span class="tr-en">Nine focused areas of practice — one standard: excellence.</span><span class="tr-ur">عمل کے نو مرکوز شعبے — ایک معیار: فضیلت۔</span></p>
     </div>
     <div class="cards">
       <article class="card reveal">
@@ -761,6 +843,12 @@ html.no-js .reveal{opacity:1;transform:none}
         <h4 class="tr-en">Civil Litigation</h4><span class="ur-name tr-ur">سول مقدمات</span>
         <p class="tr-en">Suits, recovery, injunctions and civil disputes pursued with precision through every stage of the courts.</p>
         <p class="tr-ur">مقدمات، وصولیاں، احکام اور سول تنازعات — عدالتوں کے ہر مرحلے پر مکمل درستگی کے ساتھ۔</p>
+        <ul class="card-list">
+          <li><span class="tr-en">Money recovery &amp; debt suits</span><span class="tr-ur">رقم کی وصولی اور قرض کے مقدمات</span></li>
+          <li><span class="tr-en">Permanent &amp; temporary injunctions</span><span class="tr-ur">مستقل اور وقتی احکام (انجنکشن)</span></li>
+          <li><span class="tr-en">Specific performance of contracts</span><span class="tr-ur">معاہدوں کی تکمیل کا حکم</span></li>
+          <li><span class="tr-en">Civil appeals &amp; revisions</span><span class="tr-ur">سول اپیلیں اور نظرثانی</span></li>
+        </ul>
       </article>
       <article class="card reveal" data-delay="1">
         <span class="num">02</span>
@@ -768,6 +856,12 @@ html.no-js .reveal{opacity:1;transform:none}
         <h4 class="tr-en">Criminal Defense</h4><span class="ur-name tr-ur">فوجداری دفاع</span>
         <p class="tr-en">Firm, dignified defense under the Code of Criminal Procedure — protecting rights at every step.</p>
         <p class="tr-ur">ضابطہ فوجداری کے تحت مضبوط اور باوقار دفاع — ہر قدم پر حقوق کا تحفظ۔</p>
+        <ul class="card-list">
+          <li><span class="tr-en">Trial defense &amp; cross-examination</span><span class="tr-ur">مقدمے کا دفاع اور جرح</span></li>
+          <li><span class="tr-en">Quashing of FIRs (Cr.P.C. 561-A/482)</span><span class="tr-ur">ایف آئی آر کی منسوخی (ضابطہ فوجداری)</span></li>
+          <li><span class="tr-en">Appeals before Sessions &amp; High Courts</span><span class="tr-ur">عدالت سیشن اور ہائی کورٹ میں اپیلیں</span></li>
+          <li><span class="tr-en">Pre-arrest legal protection</span><span class="tr-ur">قبل از گرفتاری قانونی تحفظ</span></li>
+        </ul>
       </article>
       <article class="card reveal" data-delay="2">
         <span class="num">03</span>
@@ -775,13 +869,25 @@ html.no-js .reveal{opacity:1;transform:none}
         <h4 class="tr-en">Family Law</h4><span class="ur-name tr-ur">خاندانی قانون</span>
         <p class="tr-en">Khula, maintenance, guardianship and succession — handled with sensitivity, confidentiality and care.</p>
         <p class="tr-ur">خلع، نان و نفقہ، سرپرستی اور وراثت — حساسیت، رازداری اور دیکھ بھال کے ساتھ۔</p>
+        <ul class="card-list">
+          <li><span class="tr-en">Khula, talaq &amp; dissolution of marriage</span><span class="tr-ur">خلع، طلاق اور نکاح کی تحلیل</span></li>
+          <li><span class="tr-en">Maintenance (nan-o-nafaqa) claims</span><span class="tr-ur">نان و نفقہ کے دعوے</span></li>
+          <li><span class="tr-en">Child custody &amp; guardianship</span><span class="tr-ur">بچوں کی تحویل اور سرپرستی</span></li>
+          <li><span class="tr-en">Inheritance &amp; succession certificates</span><span class="tr-ur">وراثت اور وراثت نامے</span></li>
+        </ul>
       </article>
       <article class="card reveal">
         <span class="num">04</span>
         <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M3 21h18M6 21V9l6-4 6 4v12M10 21v-4h4v4M10 11h.01M14 11h.01"/></svg></div>
         <h4 class="tr-en">Property Disputes</h4><span class="ur-name tr-ur">جائیداد کے تنازعات</span>
         <p class="tr-en">Land, title and possession battles resolved through sound documentary evidence and procedural mastery.</p>
-        <p class="tr-ur">زمین، عنوان اور قبضے کے تنازعات — مضبوط دستاویزی ثبوت اور طریقہ کار کی مہارت سے حل۔</p>
+        <p class="tr-ur">زمین، عنوان اور قبضے کے تنازعات — مضبوط دستاویزی ثبوت اور طرز عمل کی مہارت سے حل۔</p>
+        <ul class="card-list">
+          <li><span class="tr-en">Declaration, possession &amp; partition suits</span><span class="tr-ur">تقسیم، قبضہ اور اعلانیہ مقدمات</span></li>
+          <li><span class="tr-en">Fard-malkiat &amp; revenue record disputes</span><span class="tr-ur">فرد ملکیت اور ریکارڈ کے تنازعات</span></li>
+          <li><span class="tr-en">Land grabbing &amp; encroachment cases</span><span class="tr-ur">قبضہ مافیا اور ناجائز قبضے کے مقدمات</span></li>
+          <li><span class="tr-en">Transfer/registration documentation</span><span class="tr-ur">انتقال اور رجسٹری کی دستاویزات</span></li>
+        </ul>
       </article>
       <article class="card reveal" data-delay="1">
         <span class="num">05</span>
@@ -789,6 +895,12 @@ html.no-js .reveal{opacity:1;transform:none}
         <h4 class="tr-en">Corporate Advisory</h4><span class="ur-name tr-ur">کارپوریٹ مشاورت</span>
         <p class="tr-en">Contracts, compliance and business structuring — clear counsel for companies that want to stay safe.</p>
         <p class="tr-ur">معاہدے، تعمیل اور کاروباری ڈھانچہ — ان کمپنیوں کے لیے واضح مشورہ جو محفوظ رہنا چاہتی ہیں۔</p>
+        <ul class="card-list">
+          <li><span class="tr-en">Company registration &amp; structuring</span><span class="tr-ur">کمپنی رجسٹریشن اور ڈھانچہ</span></li>
+          <li><span class="tr-en">Commercial contracts &amp; agreements</span><span class="tr-ur">تجارتی معاہدے اور اقرارنامے</span></li>
+          <li><span class="tr-en">Tax &amp; regulatory compliance</span><span class="tr-ur">ٹیکس اور ریگولیٹری تعمیل</span></li>
+          <li><span class="tr-en">Employment &amp; partnership disputes</span><span class="tr-ur">ملازمت اور شراکت کے تنازعات</span></li>
+        </ul>
       </article>
       <article class="card reveal" data-delay="2">
         <span class="num">06</span>
@@ -796,6 +908,12 @@ html.no-js .reveal{opacity:1;transform:none}
         <h4 class="tr-en">Legal Consultation</h4><span class="ur-name tr-ur">قانونی مشاورت</span>
         <p class="tr-en">One-on-one guidance on any legal matter — understand your rights before you act.</p>
         <p class="tr-ur">کسی بھی قانونی معاملے پر ذاتی رہنمائی — اقدام سے پہلے اپنے حقوق کو سمجھیں۔</p>
+        <ul class="card-list">
+          <li><span class="tr-en">Document &amp; agreement review</span><span class="tr-ur">دستاویزات اور معاہدوں کا جائزہ</span></li>
+          <li><span class="tr-en">Legal opinion &amp; case strategy</span><span class="tr-ur">قانونی رائے اور مقدمے کی حکمت عملی</span></li>
+          <li><span class="tr-en">Pre-litigation risk assessment</span><span class="tr-ur">مقدمے سے قبل رسک کا جائزہ</span></li>
+          <li><span class="tr-en">Notarization &amp; affidavits</span><span class="tr-ur">حلف نامے اور تصدیقات</span></li>
+        </ul>
       </article>
       <article class="card reveal" data-delay="3">
         <span class="num">07</span>
@@ -803,6 +921,38 @@ html.no-js .reveal{opacity:1;transform:none}
         <h4 class="tr-en">Cyber Crime Law &amp; PECA Defence</h4><span class="ur-name tr-ur">سائبر کرائم قانون اور پیکا دفاع</span>
         <p class="tr-en">Protection and defence under PECA 2016 — working with NCCIA on cyber-crime matters.</p>
         <p class="tr-ur">پیکا 2016 کے تحت تحفظ اور دفاع — سائبر کرائم کے معاملات پر این سی سی آئی اے کے ساتھ۔</p>
+        <ul class="card-list">
+          <li><span class="tr-en">PECA 2016 offences &amp; bail</span><span class="tr-ur">پیکا 2016 کے جرائم اور ضمانت</span></li>
+          <li><span class="tr-en">Social media harassment defence</span><span class="tr-ur">سوشل میڈیا ہراسانی کا دفاع</span></li>
+          <li><span class="tr-en">NCCIA / FIA investigations</span><span class="tr-ur">این سی سی آئی اے / ایف آئی اے تحقیقات</span></li>
+          <li><span class="tr-en">Blocking of accounts &amp; digital evidence</span><span class="tr-ur">اکاؤنٹ بلاک اور ڈیجیٹل ثبوت</span></li>
+        </ul>
+      </article>
+      <article class="card reveal">
+        <span class="num">08</span>
+        <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M12 4l1.6 3.4L17 8.5l-3.4 1.1L12 13l-1.6-3.4L7 8.5l3.4-1.1L12 4z"/><path d="M5 19l2.5-1M19 19l-2.5-1M12 13v4m0 0l-3 3m3-3l3 3"/></svg></div>
+        <h4 class="tr-en">Bail &amp; Anticipatory Bail</h4><span class="ur-name tr-ur">ضمانت اور قبل از گرفتاری ضمانت</span>
+        <p class="tr-en">Swift, well-argued bail petitions to protect liberty — before arrest and after remand.</p>
+        <p class="tr-ur">آزادی کے تحفظ کے لیے فوری اور مدلل ضمانت درخواستیں — گرفتاری سے پہلے اور ریمانڈ کے بعد۔</p>
+        <ul class="card-list">
+          <li><span class="tr-en">Pre-arrest (anticipatory) bail</span><span class="tr-ur">قبل از گرفتاری ضمانت</span></li>
+          <li><span class="tr-en">Post-arrest bail &amp; release orders</span><span class="tr-ur">گرفتاری کے بعد ضمانت اور رہائی کے احکام</span></li>
+          <li><span class="tr-en">Cancellation of bail defence</span><span class="tr-ur">ضمانت منسوخی کے خلاف دفاع</span></li>
+          <li><span class="tr-en">Bail in PECA &amp; white-collar cases</span><span class="tr-ur">پیکا اور وائٹ کالر مقدمات میں ضمانت</span></li>
+        </ul>
+      </article>
+      <article class="card reveal" data-delay="1">
+        <span class="num">09</span>
+        <div class="card-icon"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 5v14a2 2 0 002 2h12a2 2 0 002-2V5M8 9h8M8 13h5"/></svg></div>
+        <h4 class="tr-en">Writ Petitions &amp; Constitutional Matters</h4><span class="ur-name tr-ur">رٹ درخواستیں اور آئینی معاملات</span>
+        <p class="tr-en">Enforcing fundamental rights through the High Courts under Articles 184 &amp; 199 of the Constitution.</p>
+        <p class="tr-ur">آئین کے آرٹیکل 184 اور 199 کے تحت ہائی کورٹس میں بنیادی حقوق کا نفاذ۔</p>
+        <ul class="card-list">
+          <li><span class="tr-en">Constitutional petitions (Art. 199)</span><span class="tr-ur">آئینی درخواستیں (آرٹیکل 199)</span></li>
+          <li><span class="tr-en">Service &amp; departmental matters</span><span class="tr-ur">ملازمت اور محکمہ جاتی معاملات</span></li>
+          <li><span class="tr-en">Against illegal orders &amp; detention</span><span class="tr-ur">غیر قانونی احکام اور نظر بندی کے خلاف</span></li>
+          <li><span class="tr-en">Enforcement of fundamental rights</span><span class="tr-ur">بنیادی حقوق کا نفاذ</span></li>
+        </ul>
       </article>
     </div>
   </div>
@@ -858,7 +1008,7 @@ html.no-js .reveal{opacity:1;transform:none}
         <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M12 3l1.9 5.7L20 10l-6.1 1.3L12 17l-1.9-5.7L4 10l6.1-1.3L12 3z"/><path d="M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16z"/></svg></div>
         <h4 class="tr-en">Quality First</h4><span class="ur tr-ur">معیار اول</span>
         <p class="tr-en">Every brief is prepared with the rigor it deserves — details are never skimmed.</p>
-        <p class="tr-ur">ہر کیس کو وہ محنت دی جاتی ہے جس کا وہ حقدار ہے — تفصیلات کو کبھی نظر انداز نہیں کیا جاتا۔</p>
+        <p class="tr-ur">ہر کیس کو وہ محنت دی جاتی ہے جس کا وہ حق دار ہے — تفصیلات کو کبھی نظر انداز نہیں کیا جاتا۔</p>
       </div>
       <div class="why-item reveal" data-delay="1">
         <div class="why-icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg></div>
@@ -892,6 +1042,109 @@ html.no-js .reveal{opacity:1;transform:none}
     <blockquote><span class="tr-en">HISTORY REMEMBERS THOSE WHO STOOD FOR WHAT WAS RIGHT</span></blockquote>
     <span class="qb-ur tr-ur">تاریخ انہیں یاد رکھتی ہے جو حق کے لیے کھڑے ہوئے</span>
     <div class="qb-rule" aria-hidden="true"></div>
+  </div>
+</section>
+
+<!-- ============ CLIENT REVIEWS ============ -->
+<section class="reviews" id="reviews" aria-label="Client Reviews">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-label"><span class="tr-en">Testimonials</span><span class="tr-ur">کلائنٹ کے تجربات</span></div>
+      <h2 class="section-title"><span class="tr-en">Client <span class="gold-text">Reviews</span></span><span class="tr-ur">کلائنٹ <span class="gold-text">ریویوز</span></span></h2>
+      <p class="section-sub"><span class="tr-en">What clients say about working with LEGAL WAY.</span><span class="tr-ur">کلائنٹس کا کہنا ہے LEGAL WAY کے ساتھ کام کرنے کے بارے میں۔</span></p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card reveal" data-delay="0">
+        <span class="review-quote-icon" aria-hidden="true">”</span>
+        <div class="review-stars" aria-label="5 star rating">
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg>
+        </div>
+        <p class="review-text tr-en">A two-year property dispute that felt endless — Sir handled the documentation and court proceedings with complete professionalism. Finally resolved in our favour.</p>
+        <p class="review-text tr-ur">دو سالہ پراپرٹی تنازع جو ختم ہوتا نظر نہیں آتا تھا — سر نے دستاویزات اور عدالتی کارروائی دونوں بڑی پیشہ ورانہ مہارت سے سنبھالے۔ آخر کار ہمارے حق میں حل ہوا۔</p>
+        <div class="review-author">
+          <div class="review-avatar">AK</div>
+          <div class="review-meta">
+            <span class="review-name tr-en">A.K.</span><span class="review-name tr-ur">اے۔کے</span>
+            <span class="review-case tr-en">Property Dispute</span><span class="review-case tr-ur">جائیداد کا تنازع</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal" data-delay="1">
+        <span class="review-quote-icon" aria-hidden="true">”</span>
+        <div class="review-stars" aria-label="5 star rating">
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg>
+        </div>
+        <p class="review-text tr-en">A very complex family matter — khula proceedings with full clarity and patience. Every step was explained to us. I felt supported throughout.</p>
+        <p class="review-text tr-ur">ایک بہت پیچیدہ خاندانی معاملہ — خلع کی کارروائی مکمل صبر اور وضاحت کے ساتھ۔ ہر قدم ہمیں سمجھایا گیا۔ پورے عمل میں مجھے سپورٹ محسوس ہوئی۔</p>
+        <div class="review-author">
+          <div class="review-avatar">SM</div>
+          <div class="review-meta">
+            <span class="review-name tr-en">S.M.</span><span class="review-name tr-ur">ایس۔ایم</span>
+            <span class="review-case tr-en">Family Matter</span><span class="review-case tr-ur">خاندانی معاملہ</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal" data-delay="2">
+        <span class="review-quote-icon" aria-hidden="true">”</span>
+        <div class="review-stars" aria-label="5 star rating">
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg>
+        </div>
+        <p class="review-text tr-en">I needed an urgent bail hearing and got immediate attention. Daily updates and a strong defence — the relief came faster than I expected.</p>
+        <p class="review-text tr-ur">مجھے فوری ضمانت کی سماعت کی ضرورت تھی اور مجھے فوری توجہ ملی۔ روزانہ اپڈیٹس اور مضبوط دفاع — راحت میری توقع سے پہلے ملی۔</p>
+        <div class="review-author">
+          <div class="review-avatar">RA</div>
+          <div class="review-meta">
+            <span class="review-name tr-en">R.A.</span><span class="review-name tr-ur">آر۔اے</span>
+            <span class="review-case tr-en">Bail Application</span><span class="review-case tr-ur">ضمانت کی درخواست</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal" data-delay="3">
+        <span class="review-quote-icon" aria-hidden="true">”</span>
+        <div class="review-stars" aria-label="5 star rating">
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg>
+        </div>
+        <p class="review-text tr-en">My recovery suit was handled with complete documentation. I was kept informed at every stage — honest advice, no false promises.</p>
+        <p class="review-text tr-ur">میرا ریکوری مقدمہ مکمل دستاویزات کے ساتھ چلایا گیا۔ ہر مرحلے پر مجھے آگاہ رکھا گیا — دیانتدارانہ مشورہ، کوئی جھوٹے وعدے نہیں۔</p>
+        <div class="review-author">
+          <div class="review-avatar">FK</div>
+          <div class="review-meta">
+            <span class="review-name tr-en">F.K.</span><span class="review-name tr-ur">ایف۔کے</span>
+            <span class="review-case tr-en">Civil Litigation</span><span class="review-case tr-ur">دیوانی مقدمہ</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal" data-delay="4">
+        <span class="review-quote-icon" aria-hidden="true">”</span>
+        <div class="review-stars" aria-label="5 star rating">
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg>
+        </div>
+        <p class="review-text tr-en">For our company, contracts and compliance were handled precisely and on time. Business-friendly advice — now our first call for any legal matter.</p>
+        <p class="review-text tr-ur">ہماری کمپنی کے لیے معاہدے اور تعمیل بروقت اور درست طریقے سے سنبھالے گئے۔ کاروباری دوستانہ مشورہ — اب کسی بھی قانونی معاملے پر ہماری پہلی کال۔</p>
+        <div class="review-author">
+          <div class="review-avatar">NH</div>
+          <div class="review-meta">
+            <span class="review-name tr-en">N.H.</span><span class="review-name tr-ur">این۔ایچ</span>
+            <span class="review-case tr-en">Corporate Advisory</span><span class="review-case tr-ur">کارپوریٹ مشاورت</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card reveal" data-delay="5">
+        <span class="review-quote-icon" aria-hidden="true">”</span>
+        <div class="review-stars" aria-label="5 star rating">
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg><svg viewBox="0 0 24 24"><path d="M12 2l2.4 5.4 5.6.6-4.2 3.8 1.2 5.7-5-3-5 3 1.2-5.7L4 8l5.6-.6L12 2z"/></svg>
+        </div>
+        <p class="review-text tr-en">An online fraud case under PECA — the FIA process was handled step by step with me. The stress of the whole ordeal was greatly reduced.</p>
+        <p class="review-text tr-ur">پیکا کے تحت آن لائن فراڈ کا کیس — ایف آئی اے کا عمل میرے ساتھ قدم بہ قدم چلایا گیا۔ اس پوری آزمائش کا دباؤ بہت کم ہو گیا۔</p>
+        <div class="review-author">
+          <div class="review-avatar">MT</div>
+          <div class="review-meta">
+            <span class="review-name tr-en">M.T.</span><span class="review-name tr-ur">ایم۔ٹی</span>
+            <span class="review-case tr-en">Cyber Crime / PECA</span><span class="review-case tr-ur">سائبر کرائم / پیکا</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -984,6 +1237,7 @@ html.no-js .reveal{opacity:1;transform:none}
           <li><a href="#practice" class="tr-en">Practice Areas</a><a href="#practice" class="tr-ur">شعبہ ہائے عمل</a></li>
           <li><a href="#gov" class="tr-en">Collaboration</a><a href="#gov" class="tr-ur">قومی تعاون</a></li>
           <li><a href="#why" class="tr-en">Why Choose Us</a><a href="#why" class="tr-ur">ہم کیوں؟</a></li>
+          <li><a href="#reviews" class="tr-en">Client Reviews</a><a href="#reviews" class="tr-ur">کلائنٹ ریویوز</a></li>
           <li><a href="#contact" class="tr-en">Contact</a><a href="#contact" class="tr-ur">رابطہ</a></li>
         </ul>
       </div>
@@ -991,7 +1245,6 @@ html.no-js .reveal{opacity:1;transform:none}
         <h5><span class="tr-en">Explore</span><span class="tr-ur">مزید دیکھیں</span></h5>
         <ul>
           <li><a href="https://sumsamsahi693.com/verify" target="_blank" rel="noopener"><span class="tr-en">✓ Official Verification Page</span><span class="tr-ur">✓ سرکاری تصدیقی صفحہ</span></a></li>
-          <li><a href="https://static.teamily.ai/sites/a0c5fb6b-c786-408f-b1ec-cbf548391539/webpages/urdu-book_v8/index.html?tk=c2l0ZTphMGM1ZmI2Yi1jNzg2LTQwOGYtYjFlYy1jYmY1NDgzOTE1Mzkvd2VicGFnZXMvdXJkdS1ib29rX3Y4OjE3ODYwMjc3NjI.ZjE3MzM2NDMyMjQ3NDdjNjk5MzBiMjFjMmIwMWNmMzU" target="_blank" rel="noopener"><span class="tr-en">📖 The Urdu Book «دھندلے سائے»</span><span class="tr-ur">📖 اردو کتاب «دھندلے سائے»</span></a></li>
         </ul>
         <div style="margin-top:1rem">
           <a class="verify-badge" href="https://sumsamsahi693.com/verify" target="_blank" rel="noopener">
@@ -1001,7 +1254,7 @@ html.no-js .reveal{opacity:1;transform:none}
         </div>
       </div>
     </div>
-    <!-- ═════════════════════════════════════ PART B — SOCIAL LINKS HTML (paste ABOVE <div class="foot-bottom">) ═════════════════════════════════════ -->
+    <!-- ══════════════════════════════════════════════════════════════ PART B — SOCIAL LINKS HTML (paste ABOVE <div class="foot-bottom">) ══════════════════════════════════════════════════════════════ -->
 <section class="lw-social" aria-label="Social media links">
   <div class="ls-head">
     <h3 class="ls-title"><span class="tr-en">Connect <span class="gold-grad">With Me</span></span><span class="tr-ur" style="font-family:var(--urdu,'Noto Nastaliq Urdu',serif)">میرے <span class="gold-grad">ساتھ جڑیں</span></span> <span class="ls-diamond">◆</span></h3>
